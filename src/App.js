@@ -15,7 +15,7 @@ class App extends Component {
           name: 'Filtro de Aceite',
           code: 'CHV-FOA-001',
           category: 'Motor',
-          price: 15.99,
+          price: 12990,
           description: 'Filtro de aceite original Chevrolet',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Filtro+Aceite'
         },
@@ -24,7 +24,7 @@ class App extends Component {
           name: 'Pastillas de Freno',
           code: 'CHV-PFR-002',
           category: 'Frenos',
-          price: 45.99,
+          price: 45990,
           description: 'Pastillas de freno delanteras',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Pastillas+Freno'
         },
@@ -33,7 +33,7 @@ class App extends Component {
           name: 'Amortiguador Delantero',
           code: 'CHV-AMD-003',
           category: 'Suspensión',
-          price: 89.99,
+          price: 89990,
           description: 'Amortiguador delantero derecho',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Amortiguador'
         },
@@ -42,7 +42,7 @@ class App extends Component {
           name: 'Batería 12V',
           code: 'CHV-BAT-004',
           category: 'Eléctrico',
-          price: 129.99,
+          price: 129990,
           description: 'Batería 12V 60Ah',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Bateria'
         },
@@ -51,7 +51,7 @@ class App extends Component {
           name: 'Bujías (Set 4 und)',
           code: 'CHV-BUJ-005',
           category: 'Motor',
-          price: 35.99,
+          price: 35990,
           description: 'Set de 4 bujías de platino',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Bujias'
         },
@@ -60,7 +60,7 @@ class App extends Component {
           name: 'Correa de Distribución',
           code: 'CHV-CDT-006',
           category: 'Motor',
-          price: 65.99,
+          price: 65990,
           description: 'Correa de distribución completa',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Correa'
         },
@@ -69,7 +69,7 @@ class App extends Component {
           name: 'Discos de Freno (Par)',
           code: 'CHV-DFR-007',
           category: 'Frenos',
-          price: 99.99,
+          price: 99990,
           description: 'Par de discos de freno ventilados',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Discos+Freno'
         },
@@ -78,7 +78,7 @@ class App extends Component {
           name: 'Termostato Motor',
           code: 'CHV-TRM-008',
           category: 'Refrigeración',
-          price: 25.99,
+          price: 25990,
           description: 'Termostato original con empaque',
           image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Termostato'
         }

@@ -3,6 +3,15 @@ import React from 'react';
 const Cart = ({ cartItems, onRemoveItem }) => {
   const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
+  // Función para formatear precio en pesos chilenos
+  const formatPrice = (price) => {
+    return new Intl.NumberFormat('es-CL', {
+      style: 'currency',
+      currency: 'CLP',
+      minimumFractionDigits: 0
+    }).format(price);
+  };
+
   return (
     <div className="container my-4">
       <div className="card shadow-sm">
@@ -34,8 +43,8 @@ const Cart = ({ cartItems, onRemoveItem }) => {
                         <td>
                           <span className="badge bg-secondary">{item.quantity}</span>
                         </td>
-                        <td>${item.price.toFixed(2)}</td>
-                        <td className="fw-bold">${(item.price * item.quantity).toFixed(2)}</td>
+                        <td>{formatPrice(item.price)}</td>
+                        <td className="fw-bold">{formatPrice(item.price * item.quantity)}</td>
                         <td>
                           <button 
                             className="btn btn-sm btn-danger"
@@ -50,7 +59,7 @@ const Cart = ({ cartItems, onRemoveItem }) => {
                 </table>
               </div>
               <div className="text-end">
-                <h4>Total: <span className="text-success">${total.toFixed(2)}</span></h4>
+                <h4>Total: <span className="text-success">{formatPrice(total)}</span></h4>
                 <button className="btn btn-success btn-lg mt-2">
                   Proceder al Pago
                 </button>
