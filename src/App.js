@@ -2,8 +2,19 @@ import React, { Component } from 'react';
 import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import ContactForm from './components/ContactForm';
+import AuthComponent from './components/AuthComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/main.css';
+
+// Importar imágenes
+import filtroAceite from './assets/images/productos/filtro-aceite.jpg';
+import pastillasFreno from './assets/images/productos/pastillas-freno.jpg';
+import amortiguador from './assets/images/productos/amortiguador.jpg';
+import bateria from './assets/images/productos/bateria.jpg';
+import bujias from './assets/images/productos/bujias.jpg';
+import correa from './assets/images/productos/correa.jpg';
+import discosFreno from './assets/images/productos/discos-freno.jpg';
+import termostato from './assets/images/productos/termostato.jpg';
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +28,7 @@ class App extends Component {
           category: 'Motor',
           price: 12990,
           description: 'Filtro de aceite original Chevrolet',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Filtro+Aceite'
+          image: filtroAceite
         },
         {
           id: 2,
@@ -26,7 +37,7 @@ class App extends Component {
           category: 'Frenos',
           price: 45990,
           description: 'Pastillas de freno delanteras',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Pastillas+Freno'
+          image: pastillasFreno
         },
         {
           id: 3,
@@ -35,7 +46,7 @@ class App extends Component {
           category: 'Suspensión',
           price: 89990,
           description: 'Amortiguador delantero derecho',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Amortiguador'
+          image: amortiguador
         },
         {
           id: 4,
@@ -44,7 +55,7 @@ class App extends Component {
           category: 'Eléctrico',
           price: 129990,
           description: 'Batería 12V 60Ah',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Bateria'
+          image: bateria
         },
         {
           id: 5,
@@ -53,7 +64,7 @@ class App extends Component {
           category: 'Motor',
           price: 35990,
           description: 'Set de 4 bujías de platino',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Bujias'
+          image: bujias
         },
         {
           id: 6,
@@ -62,7 +73,7 @@ class App extends Component {
           category: 'Motor',
           price: 65990,
           description: 'Correa de distribución completa',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Correa'
+          image: correa
         },
         {
           id: 7,
@@ -71,7 +82,7 @@ class App extends Component {
           category: 'Frenos',
           price: 99990,
           description: 'Par de discos de freno ventilados',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Discos+Freno'
+          image: discosFreno
         },
         {
           id: 8,
@@ -80,7 +91,7 @@ class App extends Component {
           category: 'Refrigeración',
           price: 25990,
           description: 'Termostato original con empaque',
-          image: 'https://via.placeholder.com/300x200/FDB913/000000?text=Termostato'
+          image: termostato
         }
       ],
       cart: []
@@ -136,6 +147,9 @@ class App extends Component {
           </div>
         </div>
 
+        {/* Componente de Autenticación */}
+        <AuthComponent />
+
         {/* Carrito */}
         <Cart 
           cartItems={this.state.cart}
@@ -157,8 +171,11 @@ class App extends Component {
         <footer className="bg-dark text-white text-center py-4 mt-5">
           <div className="container">
             <p className="mb-1">🚗 Repuestos Chevrolet - Calidad Original</p>
+            <p className="mb-2">
+              <strong>Desarrollado por:</strong> Felipe Millán Flores
+            </p>
             <p className="mb-0 text-muted small">
-              Examen Final - Programación de Componentes
+              Programación de Componentes - IPLACEX | Enero 2026
             </p>
           </div>
         </footer>
