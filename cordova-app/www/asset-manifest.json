@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.df438083.css",
-    "main.js": "/static/js/main.8af07f5d.js",
+    "main.js": "/static/js/main.448bedd7.js",
+    "static/media/bujias.jpg": "/static/media/bujias.c93bff98b54270a57208.jpg",
+    "static/media/filtro-aceite.jpg": "/static/media/filtro-aceite.a4a00d272157ab7a4350.jpg",
+    "static/media/amortiguador.jpg": "/static/media/amortiguador.66a3359271de8870f235.jpg",
+    "static/media/termostato.jpg": "/static/media/termostato.267f9a06232e5f197e94.jpg",
+    "static/media/discos-freno.jpg": "/static/media/discos-freno.44836cbc6819ebf1c78b.jpg",
+    "static/media/bateria.jpg": "/static/media/bateria.cbdd39c653af69287022.jpg",
+    "static/media/pastillas-freno.jpg": "/static/media/pastillas-freno.70db60fedf51f01e93dd.jpg",
+    "static/media/correa.jpg": "/static/media/correa.fd1ec649f6f5b104f49e.jpg",
     "index.html": "/index.html",
     "main.df438083.css.map": "/static/css/main.df438083.css.map",
-    "main.8af07f5d.js.map": "/static/js/main.8af07f5d.js.map"
+    "main.448bedd7.js.map": "/static/js/main.448bedd7.js.map"
   },
   "entrypoints": [
     "static/css/main.df438083.css",
-    "static/js/main.8af07f5d.js"
+    "static/js/main.448bedd7.js"
   ]
 }

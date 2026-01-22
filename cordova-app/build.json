@@ -1,0 +1,18 @@
+{
+  "android": {
+    "debug": {
+      "keystore": "../repuestos-chevrolet.jks",
+      "storePassword": "RepuestosChevrolet2026",
+      "alias": "repuestos-chevrolet-key",
+      "password": "RepuestosChevrolet2026",
+      "keystoreType": "jks"
+    },
+    "release": {
+      "keystore": "../repuestos-chevrolet.jks",
+      "storePassword": "RepuestosChevrolet2026",
+      "alias": "repuestos-chevrolet-key",
+      "password": "RepuestosChevrolet2026",
+      "keystoreType": "jks"
+    }
+  }
+}
